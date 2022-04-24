@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        Name<input type="text" name="UserName" size="40"><br>
+        E-mail : <input type="email" name="UserMail" size="40" value="username@mailserver"><br>
+        Age :
+        <input type="radio" name="UserAge" value="Age1">~20
+        <input type="radio" name="UserAge" value="Age1" checked>20~29
+        <input type="radio" name="UserAge" value="Age1">30~39
+        <input type="radio" name="UserAge" value="Age1">40~49
+        <input type="radio" name="UserAge" value="Age1">50~<br>
+        Which brand of mobile phone have you used?<br>
+        <input type="checkbox" name="UserPhone[]" value="Apple" checked>Apple
+        <input type="checkbox" name="UserPhone[]" value="Samsung">Samsung
+        <input type="checkbox" name="UserPhone[]" value="Asus">Asus
+        <input type="checkbox" name="UserPhone[]" value="Sony">Sony<br>
+        The most common problem you encounter when using your mobile phone<br>
+        <textarea name="UserTrouble" cols="60" rows="10"></textarea>
+        <select name="UserNumber[]" size="4" multiple>
+            <option value="CHT" selected>CHT</option>
+            <option value="TWM">TWM</option>
+            <option value="FAT">FAT</option>
+        </select><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+</body>
+
+</html>
